@@ -53,7 +53,15 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (userguess == theNumber) {
 
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.win), Toast.LENGTH_LONG).show();
+                                    if(countguesses<=5)
+                                    {
+                                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.superior_win), Toast.LENGTH_LONG).show();
+                                    }
+                                    else if(countguesses>=6 && countguesses<=10)
+                                    {
+                                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.excellent_win), Toast.LENGTH_LONG).show();
+                                    }
+
                                 } else if (userguess < theNumber) {
                                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.lownumber), Toast.LENGTH_SHORT).show();
                                 } else if (userguess > theNumber) {
