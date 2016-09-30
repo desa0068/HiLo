@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 guessednumber = txtnumberguess.getText().toString();
                 if (guessednumber.isEmpty()) {
                     txtnumberguess.setError(getResources().getString(R.string.emptynumber));
-                } else {
+                }
+                else {
                     try {
                         countguesses++;
                         if (countguesses < 10) {
