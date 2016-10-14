@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnreset">Reset</string>
+    <string name="superior_win">Superior Win!!!</string>
+    <string name="excellent_win">Excellent Win</string>
+</resources>

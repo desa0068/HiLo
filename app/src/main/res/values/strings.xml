@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Guess A Number</string>
+    <string name="number_guess">Guess a number</string>
+    <string name="btnguess">Guess</string>
+    <string name="emptynumber">Please enter a number</string>
+    <string name="notanumber">Please enter a number</string>
+    <string name="numberrange">Enter a number in between 1 to 1000</string>
+    <string name="win">You have winned</string>
+    <string name="lownumber">Guessed value too low</string>
+    <string name="highnumber">Guessed number is higher</string>
+    <string name="resetmessage">Please Reset!!!</string>
+    <string name="btnreset">Reset</string>
+    <string name="about_title">About</string>
+    <string name="name">Vaibhavi Desai(desa0068@algonquinlive.com)</string>
+    <string name="ok">OK</string>
+    <string name="superior_win">Superior Win!!!</string>
+    <string name="excellent_win">Excellent Win</string>
+</resources>
